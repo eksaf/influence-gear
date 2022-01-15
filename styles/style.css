@@ -1,6 +1,30 @@
+/* custom setting */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 /* font collection */
 @import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Montserrat:ital,wght@0,600;0,700;1,400&family=Poppins:wght@500&family=Signika:wght@400;500;700&family=Source+Serif+Pro&family=Vollkorn&display=swap');
+*{
+    margin:0 auto;
+    padding:0;
+    box-sizing: border-box;
 
+}
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
+.start-journey{
+    font-size: 50px;
+}
+.starting-title{
+display:grid;
+grid-template-columns: repeat(2, 1fr);
+margin-left:30px;
+margin-top: 30px;
+}
+.elements img{
+    width:70%;
+   }
