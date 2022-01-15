@@ -49,13 +49,16 @@ margin-bottom: 30px;
 .elements img{
     width:70%;
    }
-.popular-section{
-    text-align: center;
-}
-   .popular-item h2{
+    .popular-item h2{
        margin:50px;
        font-size: 30px;
        display:inline-block;
    }
-  
+  .items{
+      display:grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-row-gap:5px;
+    
+  }
+
    
